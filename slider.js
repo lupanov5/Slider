@@ -1,6 +1,4 @@
 function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field}) {
-        
-    //Slider
 
     let offset = 0;
     let slideIndex = 1;
@@ -151,5 +149,3 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
         });
     });
 }
-
-export default slider;
